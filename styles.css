@@ -4,6 +4,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main{
+    font-weight: 800;
+    background-color: rgba(161, 161, 161, 0.651);
+}
+
  .container {  
       max-width: 600px;
       margin: 0 auto;
