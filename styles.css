@@ -7,6 +7,8 @@ body {
 
 .main{
     font-weight: 800;
+    padding: 35px;
+    font-size: 55px;
     background-color: rgba(161, 161, 161, 0.651);
 }
 
