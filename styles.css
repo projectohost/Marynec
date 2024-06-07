@@ -1,120 +1,155 @@
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.main{
-    font-weight: 800;
-    padding: 35px;
-    font-size: 55px;
-    background-color: rgba(161, 161, 161, 0.651);
-}
-
- .container {  
-      max-width: 600px;
-      margin: 0 auto;
-      float: left;
-    }
-    h1 {
-      text-align: center;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      padding: 10px;
-    }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
   
-.Welcome{
-    color: white;
-    background-image: linear-gradient(orange,orangered,red);
-    text-align: center;
-    margin-bottom: 0px;
-}
+  .main{
+      font-weight: 800;
+      padding: 35px;
+      font-size: 55px;
+      background-color: rgba(161, 161, 161, 0.651);
+  }
+  
+   .container {  
+        max-width: 600px;
+        margin: 0 auto;
+        float: left;
+      }
+      h1 {
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+    
+  .Welcome{
+      color: white;
+      background-image: linear-gradient(orange,orangered,red);
+      text-align: center;
+      margin-bottom: 0px;
+  }
+  
+  nav{
+      padding: 1px;
+      background-color: grey;
+  }
+  
+  .nav{
+      color: black;
+      text-align: center;
+      display: flex;
+      gap: 57px;
+      justify-content: center;
+  }
+  
+  .carusel{
+      position: relative; /* Set the container as the positioned ancestor */
+  
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: fit-content;
+  }
+  
+  .carusel img{
+      width: 2000px;
+      height: 1000px;
+      position: relative;
+  }
+  
+  .pza{
+      width: 1000px;
+      height: 40px;
+      padding: 10px;
+      margin-top: 170px;
+  }
+  
+  .text{
+  
+      position: absolute; /* Position the div absolutely */
+      top: 50%; /* Position it 50% from the top of the container */
+      left: 50%; /* Position it 50% from the left of the container */
+      transform: translate(-50%, -50%); /* Center the div */
+      color: aliceblue;
+      font-size: 49px;
+      text-align: center;
+  }
+  
+  .dropdown-menu{
+      font-family: Arial;
+  }
+  
+  .textt{
+      border: 3px dotted gold;
+      font-size: large;
+      text-align: center;
+  }
+  
+  footer{
+      background-color: rgb(46, 42, 42);
+      color: white;
+      text-align: center;
+  }
+  
+  .pza{
+      width: 380px;
+      height: 380px;
+  }
+  
+  .pizzas{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 200px;
+      margin: auto 15% ;
+  }
+  
+  .pizza menu{
+      text-align: center;
+  
+  }
 
-nav{
-    padding: 1px;
-    background-color: grey;
-}
-
-.nav{
-    color: black;
-    text-align: center;
+/* Редакція -> вирівнювання */
+  .catalogy{
     display: flex;
-    gap: 57px;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.textoo{
+    width: 500px;
 }
 
-.carusel{
-    position: relative; /* Set the container as the positioned ancestor */
-
-    padding: 30px;
+.imgee{
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 100%;
-    height: fit-content;
+    width: 200px;
+    height: 200px;
 }
 
-.carusel img{
-    width: 2000px;
-    height: 1000px;
-    position: relative;
-}
-
-.pza{
-    width: 1000px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 170px;
-}
-
-.text{
-
-    position: absolute; /* Position the div absolutely */
-    top: 50%; /* Position it 50% from the top of the container */
-    left: 50%; /* Position it 50% from the left of the container */
-    transform: translate(-50%, -50%); /* Center the div */
-    color: aliceblue;
-    font-size: 49px;
-    text-align: center;
-}
-
-.dropdown-menu{
-    font-family: Arial;
-}
-
-.textt{
-    border: 3px dotted gold;
-    font-size: large;
-    text-align: center;
-}
-
-footer{
-    background-color: rgb(46, 42, 42);
-    color: white;
-    text-align: center;
-}
-
-.pza{
-    width: 380px;
-    height: 380px;
-}
-
-.pizzas{
+.pizza{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
-    margin: auto 15% ;
+    gap: 20px;
 }
 
-.pizza menu{
-    text-align: center;
-
+.pizza p{
+    font-size: 20px;
 }
 
+.opys{
+    width: 80%;
+}
